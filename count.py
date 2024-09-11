@@ -1,18 +1,15 @@
-# num=int(input("Enter the number of elements: "))
-# print("Enter the elements: ")
-# list1=[]
-# dict={}
-# for i in range(num):
-#     c=int(input())
-#     list1.append(c)
+l=[]
+n=int(input("Enter the size of the list:"))
 
-# k=set(list1)
-# keys=tuple(k)
-# length=len(k)
-# for i in range(length):
-#     count=0
-#     for j in range(num):
-#         if(keys[i]==list1[j]):
-#             count=count+1
-#     dict[keys[i]]=count
-# print(dict)
+for i in range(n):
+    c=int(input())
+    l.append(c)
+print("The list:",l)
+dict1={}
+for c in l:
+    if c in dict1:
+        dict1[c]=dict1[c]+1
+    else:
+        dict1[c]=1
+
+print(dict1)
