@@ -41,11 +41,38 @@
 # print(num)
 
 # string=input("enter a string")
-# vowels={x for x in string if x in 'aeiou'}
+# vowels={x for x in string if x in 'aeiouAEIOU'}
 # print(vowels)
 
 # odd={x**2 for x in range(1,15) if x%2!=0}
 # print(odd)
 
-# fruits=['apple','banana','cherry','date']
-# len={fruit:}
+# fruits={x:len(x) for x in ['apple', 'banana', 'cherry', 'date']}
+# print(fruits)
+
+# even={num:(num %2==0) for num in range(1,11)}
+# print(even)
+
+# break
+
+# for string in "python loops":
+#     if string=="o" or string=="p" or string=="t":
+#         continue
+#     print('current letter:',string)
+
+# continue
+
+# for string in "python loops":
+#     if string=='l':
+#         break
+#     print("current letter:",string)
+
+# for string in "python loops":
+#     pass
+# print('last letter:',string)
+
+
+
+        
+
+    
